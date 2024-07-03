@@ -2,6 +2,50 @@
 <html>
 <head>
     <title>Upload Multiple Files</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: palevioletred;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: left;
+            color: brown;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: palevioletred;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="file"] {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: rebeccapurple;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: wheat;
+        }
+    </style>
 </head>
 <body>
     <h1>Upload Multiple Files</h1>
