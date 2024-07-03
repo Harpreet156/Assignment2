@@ -24,7 +24,7 @@ app.use(express.json());
 
 // Serve static files from the /uploads directory
 app.use('/uploads', express.static('uploads'));
-//app.use(express.static(path.join(__dirname, 'views')));
+
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
